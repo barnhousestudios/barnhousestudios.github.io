@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Goergia, serif;
+}
+li a:hover {
+    background-color: #111;
+    color:white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color:white;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.coverimg {
+	padding-top: 7%;
+}
+.moviespic {
+    height: 400px;
+    width:250px;
+    padding-left:20%;
+    padding-top:5%;
+}
+.wrapper {
+    text-align:center;
+    font-family:font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Goergia, serif;
+    font-size:140%;
+}
+.button {
+    top:50%;
+    right:50%;
+}
+.image {
+    padding-left:10%;
+}
+.header {
+    font-family:font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Goergia, serif;
+    color:white;
+    text-align:center;
+    font-size:200%;
+}
+.text {
+    font-family:font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Goergia, serif;
+    font-size:140%;
+    color:white;
+    width:50%;
+    float:left;
+    padding-left:8%;
+}
