@@ -21,7 +21,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 5%;
+    padding: 15px;
     text-decoration: none;
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Goergia, serif;
 }
@@ -43,8 +43,8 @@ li a:hover:not(.active) {
 	padding-top: 7%;
 }
 .moviespic {
-    height: 400px;
-    width:250px;
+    height: 63%;
+    width:20%;
     padding-left:20%;
     padding-top:5%;
 }
