@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #1C71B9;
 }
 
 ul {
@@ -73,4 +73,11 @@ li a:hover:not(.active) {
     width:50%;
     float:left;
     padding-left:8%;
+}
+.brightness {
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .5;
 }
