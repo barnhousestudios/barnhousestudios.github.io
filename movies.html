@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="barnhouse.css">
+</head>
+
+<body>
+<title>Film</title>
+
+<div>
+	  <ul>
+	    <li><a href="javascript:void(0);">Barnhouse Studios</a></li>
+	  </ul>
+	  <ul class ="tool1">
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active" href="movies.html">Film</a></li>
+		<li><a href="television.html">Television</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		    <li class="icon">
+    			<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  		    </li>
+  		<li class="tool2">Barnhouse Studios</li>
+	  </ul>
+</div>
+
+<div class="brightness">
+		<a href="killingape.html"><img class="moviespic" src="The Killing Ape Movie Poster.jpg" /></a><a href="farmtimes.html"><img class="moviespic" src="farmtimes.png" /></a>
+
+		<a href="riskyrick.html"><img class="moviespic" src="riskyrickpic.png" /></a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>
